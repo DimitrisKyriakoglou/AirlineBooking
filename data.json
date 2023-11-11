@@ -1,1 +1,208 @@
-{"flights":[],"tickets":[],"maxFlightId":0,"maxTicketId":0}
+{
+  "maxFlightId": 4,
+  "maxTicketId": 2,
+  "flights": [
+    {
+      "id": 0,
+      "flightNo": "AB180",
+      "capacity": 149,
+      "from": "athens",
+      "fromCode": "ATH",
+      "to": "vienna",
+      "toCode": "VNA",
+      "departure": {
+        "date": {
+          "year": 2023,
+          "month": 10,
+          "day": 10
+        },
+        "time": {
+          "hour": 14,
+          "minute": 0,
+          "second": 0,
+          "nano": 0
+        }
+      },
+      "arrival": {
+        "date": {
+          "year": 2023,
+          "month": 10,
+          "day": 10
+        },
+        "time": {
+          "hour": 18,
+          "minute": 0,
+          "second": 0,
+          "nano": 0
+        }
+      },
+      "price": 200.0
+    },
+    {
+      "id": 1,
+      "flightNo": "AC150",
+      "capacity": 49,
+      "from": "athens",
+      "fromCode": "ATH",
+      "to": "santorini",
+      "toCode": "SNT",
+      "departure": {
+        "date": {
+          "year": 2023,
+          "month": 10,
+          "day": 10
+        },
+        "time": {
+          "hour": 14,
+          "minute": 0,
+          "second": 0,
+          "nano": 0
+        }
+      },
+      "arrival": {
+        "date": {
+          "year": 2023,
+          "month": 10,
+          "day": 10
+        },
+        "time": {
+          "hour": 15,
+          "minute": 0,
+          "second": 0,
+          "nano": 0
+        }
+      },
+      "price": 50.0
+    },
+    {
+      "id": 2,
+      "flightNo": "WE1000",
+      "capacity": 150,
+      "from": "athens",
+      "fromCode": "ATH",
+      "to": "moon",
+      "toCode": "MON",
+      "departure": {
+        "date": {
+          "year": 2023,
+          "month": 10,
+          "day": 14
+        },
+        "time": {
+          "hour": 15,
+          "minute": 0,
+          "second": 0,
+          "nano": 0
+        }
+      },
+      "arrival": {
+        "date": {
+          "year": 2023,
+          "month": 10,
+          "day": 14
+        },
+        "time": {
+          "hour": 23,
+          "minute": 0,
+          "second": 0,
+          "nano": 0
+        }
+      },
+      "price": 100.0
+    }
+  ],
+  "tickets": [
+    {
+      "id": 0,
+      "passenger": {
+        "id": 0,
+        "passportNo": "AB1006",
+        "fullName": "Dimitris Kyriakoglou",
+        "age": 36,
+        "nationality": "Greek"
+      },
+      "flight": {
+        "id": 0,
+        "flightNo": "AB180",
+        "capacity": 149,
+        "from": "athens",
+        "fromCode": "ATH",
+        "to": "vienna",
+        "toCode": "VNA",
+        "departure": {
+          "date": {
+            "year": 2023,
+            "month": 10,
+            "day": 10
+          },
+          "time": {
+            "hour": 14,
+            "minute": 0,
+            "second": 0,
+            "nano": 0
+          }
+        },
+        "arrival": {
+          "date": {
+            "year": 2023,
+            "month": 10,
+            "day": 10
+          },
+          "time": {
+            "hour": 18,
+            "minute": 0,
+            "second": 0,
+            "nano": 0
+          }
+        },
+        "price": 200.0
+      }
+    },
+    {
+      "id": 1,
+      "passenger": {
+        "id": 0,
+        "passportNo": "AB1000",
+        "fullName": "Dimitris K",
+        "age": 36,
+        "nationality": "Greek"
+      },
+      "flight": {
+        "id": 2,
+        "flightNo": "WE1000",
+        "capacity": 149,
+        "from": "athens",
+        "fromCode": "ATH",
+        "to": "moon",
+        "toCode": "MON",
+        "departure": {
+          "date": {
+            "year": 2023,
+            "month": 10,
+            "day": 14
+          },
+          "time": {
+            "hour": 15,
+            "minute": 0,
+            "second": 0,
+            "nano": 0
+          }
+        },
+        "arrival": {
+          "date": {
+            "year": 2023,
+            "month": 10,
+            "day": 14
+          },
+          "time": {
+            "hour": 23,
+            "minute": 0,
+            "second": 0,
+            "nano": 0
+          }
+        },
+        "price": 100.0
+      }
+    }
+  ]
+}
